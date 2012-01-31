@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C71E9F8A1458D76700A2637C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71E9F891458D76700A2637C /* Foundation.framework */; };
+		C71E9F951458D76800A2637C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71E9F941458D76800A2637C /* UIKit.framework */; };
+		C71E9F961458D76800A2637C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71E9F891458D76700A2637C /* Foundation.framework */; };
+		C71E9F981458D76800A2637C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71E9F971458D76800A2637C /* CoreGraphics.framework */; };
+		C71E9F9B1458D76800A2637C /* libUIKitExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C71E9F861458D76700A2637C /* libUIKitExtension.a */; };
+		C71E9FA11458D76800A2637C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C71E9F9F1458D76800A2637C /* InfoPlist.strings */; };
+		C71E9FA41458D76800A2637C /* UIKitExtensionTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C71E9FA31458D76800A2637C /* UIKitExtensionTests.h */; };
+		C71E9FA61458D76800A2637C /* UIKitExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71E9FA51458D76800A2637C /* UIKitExtensionTests.m */; };
+		C71E9FB11458D84600A2637C /* UIViewController+DANibView.h in Headers */ = {isa = PBXBuildFile; fileRef = C71E9FAF1458D84600A2637C /* UIViewController+DANibView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C71E9FB21458D84600A2637C /* UIViewController+DANibView.m in Sources */ = {isa = PBXBuildFile; fileRef = C71E9FB01458D84600A2637C /* UIViewController+DANibView.m */; };
+		C74FD9CF145B977F008AD2FB /* DAPeriodPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C74FD9CD145B977F008AD2FB /* DAPeriodPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C74FD9D0145B977F008AD2FB /* DAPeriodPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C74FD9CE145B977F008AD2FB /* DAPeriodPickerView.m */; };
+		C74FD9D3145BB545008AD2FB /* libLogging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C74FD9D2145BB545008AD2FB /* libLogging.a */; };
+		C76DAA07149D7CAE00862FC1 /* DAPeriodPickerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C76DAA06149D7CAE00862FC1 /* DAPeriodPickerViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C71E9F991458D76800A2637C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C71E9F7D1458D76700A2637C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71E9F851458D76700A2637C;
+			remoteInfo = UIKitExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C71E9F861458D76700A2637C /* libUIKitExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71E9F891458D76700A2637C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C71E9F8D1458D76700A2637C /* UIKitExtension-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKitExtension-Prefix.pch"; sourceTree = "<group>"; };
+		C71E9F931458D76800A2637C /* UIKitExtensionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitExtensionTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71E9F941458D76800A2637C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C71E9F971458D76800A2637C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C71E9F9E1458D76800A2637C /* UIKitExtensionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIKitExtensionTests-Info.plist"; sourceTree = "<group>"; };
+		C71E9FA01458D76800A2637C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C71E9FA21458D76800A2637C /* UIKitExtensionTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKitExtensionTests-Prefix.pch"; sourceTree = "<group>"; };
+		C71E9FA31458D76800A2637C /* UIKitExtensionTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitExtensionTests.h; sourceTree = "<group>"; };
+		C71E9FA51458D76800A2637C /* UIKitExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKitExtensionTests.m; sourceTree = "<group>"; };
+		C71E9FAF1458D84600A2637C /* UIViewController+DANibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+DANibView.h"; path = "src/UIViewController+DANibView.h"; sourceTree = "<group>"; };
+		C71E9FB01458D84600A2637C /* UIViewController+DANibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DANibView.m"; path = "src/UIViewController+DANibView.m"; sourceTree = "<group>"; };
+		C71E9FB31458D92500A2637C /* LEGAL_THIRD_PARTY.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LEGAL_THIRD_PARTY.txt; sourceTree = "<group>"; };
+		C74FD941145A1AC0008AD2FB /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
+		C74FD9CD145B977F008AD2FB /* DAPeriodPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPeriodPickerView.h; sourceTree = "<group>"; };
+		C74FD9CE145B977F008AD2FB /* DAPeriodPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAPeriodPickerView.m; sourceTree = "<group>"; };
+		C74FD9D2145BB545008AD2FB /* libLogging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libLogging.a; sourceTree = SOURCE_ROOT; };
+		C76DAA06149D7CAE00862FC1 /* DAPeriodPickerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAPeriodPickerViewDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C71E9F831458D76700A2637C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74FD9D3145BB545008AD2FB /* libLogging.a in Frameworks */,
+				C71E9F8A1458D76700A2637C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71E9F8F1458D76700A2637C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71E9F951458D76800A2637C /* UIKit.framework in Frameworks */,
+				C71E9F961458D76800A2637C /* Foundation.framework in Frameworks */,
+				C71E9F981458D76800A2637C /* CoreGraphics.framework in Frameworks */,
+				C71E9F9B1458D76800A2637C /* libUIKitExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C71E9F7B1458D76700A2637C = {
+			isa = PBXGroup;
+			children = (
+				C74FD9D2145BB545008AD2FB /* libLogging.a */,
+				C74FD941145A1AC0008AD2FB /* LICENCE.txt */,
+				C71E9FB31458D92500A2637C /* LEGAL_THIRD_PARTY.txt */,
+				C71E9F8B1458D76700A2637C /* UIKitExtension */,
+				C71E9F9C1458D76800A2637C /* UIKitExtensionTests */,
+				C71E9F881458D76700A2637C /* Frameworks */,
+				C71E9F871458D76700A2637C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C71E9F871458D76700A2637C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C71E9F861458D76700A2637C /* libUIKitExtension.a */,
+				C71E9F931458D76800A2637C /* UIKitExtensionTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C71E9F881458D76700A2637C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C71E9F891458D76700A2637C /* Foundation.framework */,
+				C71E9F941458D76800A2637C /* UIKit.framework */,
+				C71E9F971458D76800A2637C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C71E9F8B1458D76700A2637C /* UIKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C74FD9D1145B9869008AD2FB /* DAPeriodPickerView */,
+				C71E9FAF1458D84600A2637C /* UIViewController+DANibView.h */,
+				C71E9FB01458D84600A2637C /* UIViewController+DANibView.m */,
+				C71E9F8C1458D76700A2637C /* Supporting Files */,
+			);
+			path = UIKitExtension;
+			sourceTree = "<group>";
+		};
+		C71E9F8C1458D76700A2637C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71E9F8D1458D76700A2637C /* UIKitExtension-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C71E9F9C1458D76800A2637C /* UIKitExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C71E9FA31458D76800A2637C /* UIKitExtensionTests.h */,
+				C71E9FA51458D76800A2637C /* UIKitExtensionTests.m */,
+				C71E9F9D1458D76800A2637C /* Supporting Files */,
+			);
+			path = UIKitExtensionTests;
+			sourceTree = "<group>";
+		};
+		C71E9F9D1458D76800A2637C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C71E9F9E1458D76800A2637C /* UIKitExtensionTests-Info.plist */,
+				C71E9F9F1458D76800A2637C /* InfoPlist.strings */,
+				C71E9FA21458D76800A2637C /* UIKitExtensionTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C74FD9D1145B9869008AD2FB /* DAPeriodPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C74FD9CD145B977F008AD2FB /* DAPeriodPickerView.h */,
+				C74FD9CE145B977F008AD2FB /* DAPeriodPickerView.m */,
+				C76DAA06149D7CAE00862FC1 /* DAPeriodPickerViewDelegate.h */,
+			);
+			name = DAPeriodPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C71E9F841458D76700A2637C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71E9FB11458D84600A2637C /* UIViewController+DANibView.h in Headers */,
+				C74FD9CF145B977F008AD2FB /* DAPeriodPickerView.h in Headers */,
+				C76DAA07149D7CAE00862FC1 /* DAPeriodPickerViewDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C71E9F851458D76700A2637C /* UIKitExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71E9FA91458D76800A2637C /* Build configuration list for PBXNativeTarget "UIKitExtension" */;
+			buildPhases = (
+				C71E9F821458D76700A2637C /* Sources */,
+				C71E9F831458D76700A2637C /* Frameworks */,
+				C71E9F841458D76700A2637C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIKitExtension;
+			productName = UIKitExtension;
+			productReference = C71E9F861458D76700A2637C /* libUIKitExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C71E9F921458D76700A2637C /* UIKitExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71E9FAC1458D76800A2637C /* Build configuration list for PBXNativeTarget "UIKitExtensionTests" */;
+			buildPhases = (
+				C71E9F8E1458D76700A2637C /* Sources */,
+				C71E9F8F1458D76700A2637C /* Frameworks */,
+				C71E9F901458D76700A2637C /* Resources */,
+				C71E9F911458D76700A2637C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C71E9F9A1458D76800A2637C /* PBXTargetDependency */,
+			);
+			name = UIKitExtensionTests;
+			productName = UIKitExtensionTests;
+			productReference = C71E9F931458D76800A2637C /* UIKitExtensionTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C71E9F7D1458D76700A2637C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C71E9F801458D76700A2637C /* Build configuration list for PBXProject "UIKitExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C71E9F7B1458D76700A2637C;
+			productRefGroup = C71E9F871458D76700A2637C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C71E9F851458D76700A2637C /* UIKitExtension */,
+				C71E9F921458D76700A2637C /* UIKitExtensionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C71E9F901458D76700A2637C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71E9FA11458D76800A2637C /* InfoPlist.strings in Resources */,
+				C71E9FA41458D76800A2637C /* UIKitExtensionTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C71E9F911458D76700A2637C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C71E9F821458D76700A2637C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71E9FB21458D84600A2637C /* UIViewController+DANibView.m in Sources */,
+				C74FD9D0145B977F008AD2FB /* DAPeriodPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71E9F8E1458D76700A2637C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71E9FA61458D76800A2637C /* UIKitExtensionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C71E9F9A1458D76800A2637C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71E9F851458D76700A2637C /* UIKitExtension */;
+			targetProxy = C71E9F991458D76800A2637C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C71E9F9F1458D76800A2637C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C71E9FA01458D76800A2637C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C71E9FA71458D76800A2637C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C71E9FA81458D76800A2637C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C71E9FAA1458D76800A2637C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/UIKitExtension.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitExtension/UIKitExtension-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C71E9FAB1458D76800A2637C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/UIKitExtension.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitExtension/UIKitExtension-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C71E9FAD1458D76800A2637C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitExtensionTests/UIKitExtensionTests-Prefix.pch";
+				INFOPLIST_FILE = "UIKitExtensionTests/UIKitExtensionTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C71E9FAE1458D76800A2637C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIKitExtensionTests/UIKitExtensionTests-Prefix.pch";
+				INFOPLIST_FILE = "UIKitExtensionTests/UIKitExtensionTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C71E9F801458D76700A2637C /* Build configuration list for PBXProject "UIKitExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71E9FA71458D76800A2637C /* Debug */,
+				C71E9FA81458D76800A2637C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71E9FA91458D76800A2637C /* Build configuration list for PBXNativeTarget "UIKitExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71E9FAA1458D76800A2637C /* Debug */,
+				C71E9FAB1458D76800A2637C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71E9FAC1458D76800A2637C /* Build configuration list for PBXNativeTarget "UIKitExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71E9FAD1458D76800A2637C /* Debug */,
+				C71E9FAE1458D76800A2637C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C71E9F7D1458D76700A2637C /* Project object */;
+}
